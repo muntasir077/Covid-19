@@ -1,0 +1,153 @@
+*{ padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+:root{
+    font-family: 'Roboto',sans-serif;
+}
+hr {
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    color: gray;
+    
+}
+.heading{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.p1{
+    font-size: 15px;
+    color: #3188b3;
+    padding-left: 0.5rem;
+    margin: 0;
+    
+}
+@media (max-width: 767px){
+    .p1{display: none;}
+}
+.logo{
+    height:35px;
+     width:35px;
+}
+.brand-name{
+    font-size: 25px;
+    color: #003188;
+    margin: 0;
+}
+.mbr-bold{
+    font-weight: 700;
+}
+.fab{
+    margin: 0px 10px;
+}
+.social_icon{
+    margin: 10px;
+    color:#003188 ;
+    font-size: 1.5rem;
+}
+img{
+    width: 452px;
+    height: 452px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 576px){
+    img{width: 300px;}
+}
+@media (max-width: 767px){
+    .social_icon{display: none;}
+}
+
+.section-fluid{
+   background-color: #f2f7ff;
+   margin: 20px 0px;
+   
+}
+.section{
+    margin: 20px 0px;
+    
+}
+
+
+.status{ background: #f2f7ff;
+margin: 20px 0px;
+padding: 30px; }
+.counter{ text-align: center; }
+.counter .counter-icon{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    border: 3px solid #003188;
+    font-size: 40px;
+    color: #003188;
+    margin-bottom: 20px;
+    position: relative;
+}
+.counter .counter-icon:before{
+    content: "";
+    border: 2px solid #003188;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.counter .counter-value{
+    display: block;
+    font-size: 55px;
+    color: #003188;
+    margin-bottom: 5px;
+}
+.counter .title{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.counter.yellow .counter-icon,
+.counter.yellow .counter-icon:before,
+.counter.yellow .counter-value{
+    color: #edd859;
+    border-color: #edd859;
+}
+.counter.red .counter-icon,
+.counter.red .counter-icon:before,
+.counter.red .counter-value{
+    color: #ff0000;
+    border-color: #ff0000;
+}
+.counter.black .counter-icon,
+.counter.black .counter-icon:before,
+.counter.black .counter-value{
+    color: #000000;
+    border-color: #000000;
+}
+.counter.green .counter-icon,
+.counter.green .counter-icon:before,
+.counter.green .counter-value{
+    color: #3ed35a;
+    border-color: #3ed35a;
+}
+@media only screen and (max-width: 990px){
+    .counter{ margin-bottom: 40px; }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+ 
+  .jumbotron {
+    background-image: url(img/photo-1583324113626-70df0f4deaab.jpg);
+ }
